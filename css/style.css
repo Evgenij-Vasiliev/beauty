@@ -29,10 +29,15 @@ body {
     color: #333333;
 }
 
-.header {
+.header {    
+    background-color: white;
+}
+
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
 .logo {
@@ -47,7 +52,9 @@ body {
 
 .header-info button {
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: transparent;
     border: 2px solid #66C05D;
+    background-color: transparent;
+    padding: 10px 15px;
 }
